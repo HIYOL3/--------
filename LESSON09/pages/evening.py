@@ -45,3 +45,13 @@ if 'user_food' in st.session_state and st.session_state.user_food:
 else:
     st.error("❌ 好きな食べ物が設定されていません")
     st.write("メインページで好きな食べ物を入力してください")
+
+if 'user_movie' in st.session_state and st.session_state.user_movie:
+    st.success(f"🎉 あなたの好きな映画は、{st.session_state.user_movie}です")
+    st.write("メインページで入力された好きな映画が正しく表示されています。")
+
+    st.balloons()
+
+else:
+    st.error("❌ 好きな映画が設定されていません")
+    st.write("メインページで好きな映画を入力してください")
