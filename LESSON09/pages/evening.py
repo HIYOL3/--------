@@ -14,7 +14,7 @@ else:
     st.write("メインページで名前を入力してください")
 
 if 'user_age' in st.session_state and st.session_state.user_age:
-    st.success(f"🎉 こんにちは、{st.session_state.user_age}さん！")
+    st.success(f"🎉 あなたの年齢は、{st.session_state.user_age}です！")
     st.write("メインページで入力された年齢が正しく表示されています。")
 
     # 追加の表示
@@ -25,7 +25,7 @@ else:
     st.write("メインページで年齢を入力してください")
 
 if 'user_hobby' in st.session_state and st.session_state.user_hobby:
-    st.success(f"🎉 こんにちは、{st.session_state.user_hobby}さん！")
+    st.success(f"🎉 あなたの趣味は、{st.session_state.user_hobby}です！")
     st.write("メインページで入力された趣味が正しく表示されています。")
 
     # 追加の表示
@@ -36,7 +36,7 @@ else:
     st.write("メインページで趣味を入力してください")
 
 if 'user_food' in st.session_state and st.session_state.user_food:
-    st.success(f"🎉 こんにちは、{st.session_state.user_food}さん！")
+    st.success(f"🎉 あなたの好きな食べ物は、{st.session_state.user_food}です！")
     st.write("メインページで入力された好きな食べ物が正しく表示されています。")
 
     # 追加の表示
